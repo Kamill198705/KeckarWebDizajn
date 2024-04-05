@@ -164,4 +164,28 @@ footer {
     text-decoration: none;
 }
 
+.kontakt label,
+.kontakt input,
+.kontakt textarea {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
 
+.kontakt textarea {
+    vertical-align: top;
+}
+
+.kontakt br {
+    display: none
+}
+
+@media (max-width: 600px) {
+
+    .kontakt label,
+    .kontakt input,
+    .kontakt textarea {
+        display: block;
+        margin-right: 0;
+    }
+}
