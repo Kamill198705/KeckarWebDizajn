@@ -164,12 +164,4 @@ footer {
     text-decoration: none;
 }
 
-@media (max-width: 600px) {
 
-    .kontakt label,
-    .kontakt input,
-    .kontakt textarea {
-        display: block;
-        margin-right: 0;
-    }
-}
